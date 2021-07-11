@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "[*] It may take a little while, please wait a little while"
+sleep 2
 
 old_process=$(ps -eo command)
 
